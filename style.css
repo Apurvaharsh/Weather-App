@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(appbg.jpg);
+    background-size: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    width: 450px;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 24px;
+    border: 1px solid black;
+}
+.search{
+    margin-top: 50px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.search input{
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px;
+    padding-left: 17px ;
+    flex: 1;
+    margin-right: 16px;
+}
+.search button{
+    height: 41px;
+    width: 41px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px;
+}
+.search button:hover{
+    cursor: pointer;
+}
+.search button img{
+    height: 15px;
+}
+.temp{
+    margin-bottom:0px;
+}
+.details{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.first{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: left;
+    
+}
+.second{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: left;
+}
+h1{
+    font-size: 70px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 28px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.first img{
+    width: 40px;
+}
+.second img{
+    width: 40px;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.error{
+    width: 70%;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+}
